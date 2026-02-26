@@ -1,9 +1,11 @@
-public class TwoSum {
+package solution;
+
+public class Q1_TwoSum {
     public static void main(String[] args) {
         int[] nums = {2, 7, 11, 15};
         int target = 9;
 
-        TwoSum sol = new TwoSum();
+        Q1_TwoSum sol = new Q1_TwoSum();
         int[] result = sol.twoSum(nums, target);
 
         System.out.println(result[0] + ", " + result[1]);
@@ -19,4 +21,5 @@ public class TwoSum {
         }
         return null;
     }
+}
 }
